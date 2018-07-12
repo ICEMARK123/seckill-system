@@ -25,12 +25,15 @@ public class Exposer {
     //秒杀的结束时间
     private long end;
 
+	//秒杀暴露接口
     public Exposer(boolean exposed, String md5, long seckillId) {
         this.exposed = exposed;
         this.md5 = md5;
         this.seckillId = seckillId;
     }
+	
 
+	//秒杀是否开始接口
     public Exposer(boolean exposed, long seckillId,long now, long start, long end) {
         this.exposed = exposed;
         this.seckillId=seckillId;
@@ -39,11 +42,13 @@ public class Exposer {
         this.end = end;
     }
 
+	//秒杀接口
     public Exposer(boolean exposed, long seckillId) {
         this.exposed = exposed;
         this.seckillId = seckillId;
     }
 
+	// 是否要暴露
     public boolean isExposed() {
         return exposed;
     }

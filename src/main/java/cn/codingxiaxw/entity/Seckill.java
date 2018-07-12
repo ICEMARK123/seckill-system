@@ -7,11 +7,17 @@ import java.util.Date;
  */
 public class Seckill
 {
+	//秒杀ID
     private long seckillId;
+	//秒杀产品名字
     private String name;
+	//秒杀编号
     private int number;
+	//开始时间
     private Date startTime;
+	//结束时间
     private Date endTime;
+	//创建时间
     private Date createTime;
 
     public long getSeckillId() {
