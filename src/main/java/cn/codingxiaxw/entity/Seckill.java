@@ -68,6 +68,7 @@ public class Seckill
         this.createTime = createTime;
     }
 
+	// 对商品对象的输出
     @Override
     public String toString() {
         return "Seckill{" +

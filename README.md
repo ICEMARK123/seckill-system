@@ -15,3 +15,9 @@ This project is used to simulate the second kill system of e-commerce
 2. 使用Maven功能引入所有的依赖文件。
 3. 安装配置Redis。
 4. 安装MySQL
+# 实现功能
+ 1. 对上平的Dao、enity的编写
+ 2. 编写对数据库的SQL
+ 3. 针对商品的页面编写，实现商品的增删改查等功能。
+ 
+

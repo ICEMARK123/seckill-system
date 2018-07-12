@@ -9,6 +9,7 @@ import java.util.List;
 
 /**
  * Created by codingBoy on 16/11/26.
+ * 商品的DAO 编写
  */
 public interface SeckillDao
 {

@@ -12,6 +12,7 @@ import java.util.Date;
  * @description
  */
 public class ReadisSpeedTest {
+	//测试
     public static void main(String[] args) {
         Seckill seckill = new Seckill();
         seckill.setCreateTime(new Date());

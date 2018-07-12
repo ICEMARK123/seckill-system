@@ -20,6 +20,7 @@ import java.util.List;
 
 /**
  * Created by codingBoy on 16/11/28.
+ * 对商品的操作控制
  */
 @Controller
 @RequestMapping("/seckill")//url:模块/资源/{}/细分
