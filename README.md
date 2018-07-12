@@ -1,4 +1,4 @@
-# seckill-system
+﻿# seckill-system
 This project is used to simulate the second kill system of e-commerce
 
 # 项目介绍
@@ -16,8 +16,7 @@ This project is used to simulate the second kill system of e-commerce
 3. 安装配置Redis。
 4. 安装MySQL
 # 实现功能
+### 编写商品操作
  1. 对上平的Dao、enity的编写
  2. 编写对数据库的SQL
  3. 针对商品的页面编写，实现商品的增删改查等功能。
- 
-
