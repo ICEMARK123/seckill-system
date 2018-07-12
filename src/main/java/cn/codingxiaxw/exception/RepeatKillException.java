@@ -7,10 +7,12 @@ package cn.codingxiaxw.exception;
  */
 public class RepeatKillException extends SeckillException {
 
+	//秒杀信息
     public RepeatKillException(String message) {
         super(message);
     }
 
+	//重复秒杀异常
     public RepeatKillException(String message, Throwable cause) {
         super(message, cause);
     }
